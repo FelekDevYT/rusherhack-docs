@@ -4,7 +4,7 @@ const config = {
   title: 'RusherHack Documentation',
   tagline: 'Documentation for all things related to RusherHack.',
   favicon: 'img/logo.png',
-  url: 'https://felekdevyt.github.io/rusherhack-docs/',
+  url: 'https://felekdevyt.github.io',
   baseUrl: '/rusherhack-docs/',
   organizationName: 'FelekDevYT',
   projectName: 'rusherhack-docs',
