@@ -44,7 +44,7 @@ const config = {
         items: [
           {to: '/docs/intro', label: 'Guide', position: 'right'},
           {to: '/docs/modules/features', label: 'Features', position: 'right'},
-          {to: '/docs/api', label: 'API', position: 'right'},
+          //{to: '/docs/api', label: 'API', position: 'right'},
           {
             href: 'https://github.com/RusherDevelopment',
             position: 'right',
