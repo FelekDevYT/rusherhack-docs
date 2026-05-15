@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Home() {
   return (
@@ -24,7 +25,11 @@ export default function Home() {
             <div className={styles.heroCol}>
               <div className={styles.imageWrapper}>
                 <div className={styles.glow} />
-                <img src="/img/rusher-logo.png" className={styles.heroImage} alt="RusherHack Logo" />
+                <img 
+                  src={useBaseUrl('/img/rusher-logo.png')} 
+                  className={styles.heroImage} 
+                  alt="RusherHack Logo" 
+                />
               </div>
             </div>
           </div>
